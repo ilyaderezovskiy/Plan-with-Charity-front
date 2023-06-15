@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661E649C2A2F2699007138EA /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E649B2A2F2699007138EA /* ReportView.swift */; };
+		66280E202A30F8DF0051FF76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662CCBD52A30B3B70087E415 /* Localizable.strings */; };
+		662CCBD32A30B3B70087E415 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662CCBD52A30B3B70087E415 /* Localizable.strings */; };
+		662F8ACB2A1581A5003DFA54 /* Plan_with_CharityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8ACA2A1581A5003DFA54 /* Plan_with_CharityApp.swift */; };
+		662F8ACD2A1581A5003DFA54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8ACC2A1581A5003DFA54 /* ContentView.swift */; };
+		662F8ACF2A1581A5003DFA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662F8ACE2A1581A5003DFA54 /* Assets.xcassets */; };
+		662F8AD22A1581A5003DFA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662F8AD12A1581A5003DFA54 /* Preview Assets.xcassets */; };
+		662F8AD42A1581A5003DFA54 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AD32A1581A5003DFA54 /* Persistence.swift */; };
+		662F8AD72A1581A5003DFA54 /* Plan_with_Charity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AD52A1581A5003DFA54 /* Plan_with_Charity.xcdatamodeld */; };
+		662F8AE12A158278003DFA54 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AE02A158278003DFA54 /* AuthView.swift */; };
+		662F8AE32A1582A0003DFA54 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AE22A1582A0003DFA54 /* CalendarView.swift */; };
+		662F8AE52A1582B8003DFA54 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AE42A1582B8003DFA54 /* AddTaskView.swift */; };
+		662F8AEE2A158306003DFA54 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AED2A158306003DFA54 /* Category.swift */; };
+		662F8AF02A158316003DFA54 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AEF2A158316003DFA54 /* DateValue.swift */; };
+		662F8AF22A158326003DFA54 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AF12A158326003DFA54 /* CardInfo.swift */; };
+		662F8AF42A15833D003DFA54 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AF32A15833D003DFA54 /* TaskViewModel.swift */; };
+		662F8AF62A15834C003DFA54 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AF52A15834C003DFA54 /* SearchBar.swift */; };
+		662F8AF82A158361003DFA54 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F8AF72A158361003DFA54 /* CardView.swift */; };
+		664B52962A1677F500F8DAD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664B52952A1677F500F8DAD7 /* WidgetKit.framework */; };
+		664B52982A1677F500F8DAD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664B52972A1677F500F8DAD7 /* SwiftUI.framework */; };
+		664B529B2A1677F500F8DAD7 /* PlannerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664B529A2A1677F500F8DAD7 /* PlannerWidget.swift */; };
+		664B529E2A1677F700F8DAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664B529D2A1677F700F8DAD7 /* Assets.xcassets */; };
+		664B52A02A1677F700F8DAD7 /* PlannerWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 664B529C2A1677F500F8DAD7 /* PlannerWidget.intentdefinition */; };
+		664B52A12A1677F700F8DAD7 /* PlannerWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 664B529C2A1677F500F8DAD7 /* PlannerWidget.intentdefinition */; };
+		664B52A42A1677F700F8DAD7 /* PlannerWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 664B52932A1677F500F8DAD7 /* PlannerWidgetExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		664ECE672A2B68360060A509 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECE662A2B68360060A509 /* ImagePickerView.swift */; };
+		66ACA3342A15861F000CFFD5 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ACA3332A15861F000CFFD5 /* CustomDatePicker.swift */; };
+		66ACA3362A1586DA000CFFD5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ACA3352A1586DA000CFFD5 /* ProfileView.swift */; };
+		66ACA3382A158799000CFFD5 /* UserNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ACA3372A158799000CFFD5 /* UserNotificationsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664B52A22A1677F700F8DAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662F8ABF2A1581A4003DFA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664B52922A1677F500F8DAD7;
+			remoteInfo = PlannerWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		664B52A52A1677F700F8DAD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				664B52A42A1677F700F8DAD7 /* PlannerWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		661B13792A16910800676263 /* Plan with Charity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Plan with Charity.entitlements"; sourceTree = "<group>"; };
+		661B137A2A16910800676263 /* PlannerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlannerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		661E649B2A2F2699007138EA /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		66280E1F2A30F1C60051FF76 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		662CCBD42A30B3B70087E415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		662F8AC72A1581A5003DFA54 /* Plan with Charity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan with Charity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662F8ACA2A1581A5003DFA54 /* Plan_with_CharityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan_with_CharityApp.swift; sourceTree = "<group>"; };
+		662F8ACC2A1581A5003DFA54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		662F8ACE2A1581A5003DFA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662F8AD12A1581A5003DFA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		662F8AD32A1581A5003DFA54 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		662F8AD62A1581A5003DFA54 /* Plan_with_Charity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plan_with_Charity.xcdatamodel; sourceTree = "<group>"; };
+		662F8AE02A158278003DFA54 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		662F8AE22A1582A0003DFA54 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		662F8AE42A1582B8003DFA54 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		662F8AED2A158306003DFA54 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		662F8AEF2A158316003DFA54 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		662F8AF12A158326003DFA54 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		662F8AF32A15833D003DFA54 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		662F8AF52A15834C003DFA54 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		662F8AF72A158361003DFA54 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		664B52932A1677F500F8DAD7 /* PlannerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlannerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B52952A1677F500F8DAD7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		664B52972A1677F500F8DAD7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		664B529A2A1677F500F8DAD7 /* PlannerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerWidget.swift; sourceTree = "<group>"; };
+		664B529C2A1677F500F8DAD7 /* PlannerWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = PlannerWidget.intentdefinition; sourceTree = "<group>"; };
+		664B529D2A1677F700F8DAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664B529F2A1677F700F8DAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664ECE662A2B68360060A509 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		66ACA3332A15861F000CFFD5 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		66ACA3352A1586DA000CFFD5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		66ACA3372A158799000CFFD5 /* UserNotificationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662F8AC42A1581A5003DFA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B52902A1677F500F8DAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B52982A1677F500F8DAD7 /* SwiftUI.framework in Frameworks */,
+				664B52962A1677F500F8DAD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662F8ABE2A1581A4003DFA54 = {
+			isa = PBXGroup;
+			children = (
+				661B137A2A16910800676263 /* PlannerWidgetExtension.entitlements */,
+				662F8AC92A1581A5003DFA54 /* Plan with Charity */,
+				664B52992A1677F500F8DAD7 /* PlannerWidget */,
+				664B52942A1677F500F8DAD7 /* Frameworks */,
+				662F8AC82A1581A5003DFA54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662F8AC82A1581A5003DFA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662F8AC72A1581A5003DFA54 /* Plan with Charity.app */,
+				664B52932A1677F500F8DAD7 /* PlannerWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662F8AC92A1581A5003DFA54 /* Plan with Charity */ = {
+			isa = PBXGroup;
+			children = (
+				661B13792A16910800676263 /* Plan with Charity.entitlements */,
+				662F8ADD2A158258003DFA54 /* View */,
+				662F8ACA2A1581A5003DFA54 /* Plan_with_CharityApp.swift */,
+				662F8ADE2A15825F003DFA54 /* Model */,
+				662F8ADF2A158266003DFA54 /* ViewModel */,
+				662F8AD32A1581A5003DFA54 /* Persistence.swift */,
+				662F8ACE2A1581A5003DFA54 /* Assets.xcassets */,
+				662F8AD52A1581A5003DFA54 /* Plan_with_Charity.xcdatamodeld */,
+				662F8AD02A1581A5003DFA54 /* Preview Content */,
+			);
+			path = "Plan with Charity";
+			sourceTree = "<group>";
+		};
+		662F8AD02A1581A5003DFA54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				662F8AD12A1581A5003DFA54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		662F8ADD2A158258003DFA54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				662F8ACC2A1581A5003DFA54 /* ContentView.swift */,
+				662F8AE02A158278003DFA54 /* AuthView.swift */,
+				662F8AE22A1582A0003DFA54 /* CalendarView.swift */,
+				662CCBD52A30B3B70087E415 /* Localizable.strings */,
+				662F8AE42A1582B8003DFA54 /* AddTaskView.swift */,
+				66ACA3332A15861F000CFFD5 /* CustomDatePicker.swift */,
+				66ACA3352A1586DA000CFFD5 /* ProfileView.swift */,
+				664ECE662A2B68360060A509 /* ImagePickerView.swift */,
+				661E649B2A2F2699007138EA /* ReportView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		662F8ADE2A15825F003DFA54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				662F8AED2A158306003DFA54 /* Category.swift */,
+				662F8AEF2A158316003DFA54 /* DateValue.swift */,
+				662F8AF12A158326003DFA54 /* CardInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		662F8ADF2A158266003DFA54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				662F8AF32A15833D003DFA54 /* TaskViewModel.swift */,
+				662F8AF52A15834C003DFA54 /* SearchBar.swift */,
+				662F8AF72A158361003DFA54 /* CardView.swift */,
+				66ACA3372A158799000CFFD5 /* UserNotificationsService.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		664B52942A1677F500F8DAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				664B52952A1677F500F8DAD7 /* WidgetKit.framework */,
+				664B52972A1677F500F8DAD7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		664B52992A1677F500F8DAD7 /* PlannerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				664B529A2A1677F500F8DAD7 /* PlannerWidget.swift */,
+				664B529C2A1677F500F8DAD7 /* PlannerWidget.intentdefinition */,
+				664B529D2A1677F700F8DAD7 /* Assets.xcassets */,
+				664B529F2A1677F700F8DAD7 /* Info.plist */,
+			);
+			path = PlannerWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662F8AC62A1581A5003DFA54 /* Plan with Charity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662F8ADA2A1581A5003DFA54 /* Build configuration list for PBXNativeTarget "Plan with Charity" */;
+			buildPhases = (
+				662F8AC32A1581A5003DFA54 /* Sources */,
+				662F8AC42A1581A5003DFA54 /* Frameworks */,
+				662F8AC52A1581A5003DFA54 /* Resources */,
+				664B52A52A1677F700F8DAD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664B52A32A1677F700F8DAD7 /* PBXTargetDependency */,
+			);
+			name = "Plan with Charity";
+			productName = "Plan with Charity";
+			productReference = 662F8AC72A1581A5003DFA54 /* Plan with Charity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664B52922A1677F500F8DAD7 /* PlannerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664B52A82A1677F700F8DAD7 /* Build configuration list for PBXNativeTarget "PlannerWidgetExtension" */;
+			buildPhases = (
+				664B528F2A1677F500F8DAD7 /* Sources */,
+				664B52902A1677F500F8DAD7 /* Frameworks */,
+				664B52912A1677F500F8DAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlannerWidgetExtension;
+			productName = PlannerWidgetExtension;
+			productReference = 664B52932A1677F500F8DAD7 /* PlannerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662F8ABF2A1581A4003DFA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					662F8AC62A1581A5003DFA54 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					664B52922A1677F500F8DAD7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 662F8AC22A1581A4003DFA54 /* Build configuration list for PBXProject "Plan with Charity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 662F8ABE2A1581A4003DFA54;
+			productRefGroup = 662F8AC82A1581A5003DFA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662F8AC62A1581A5003DFA54 /* Plan with Charity */,
+				664B52922A1677F500F8DAD7 /* PlannerWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662F8AC52A1581A5003DFA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662F8AD22A1581A5003DFA54 /* Preview Assets.xcassets in Resources */,
+				662CCBD32A30B3B70087E415 /* Localizable.strings in Resources */,
+				662F8ACF2A1581A5003DFA54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B52912A1677F500F8DAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B529E2A1677F700F8DAD7 /* Assets.xcassets in Resources */,
+				66280E202A30F8DF0051FF76 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662F8AC32A1581A5003DFA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662F8AEE2A158306003DFA54 /* Category.swift in Sources */,
+				662F8AF02A158316003DFA54 /* DateValue.swift in Sources */,
+				662F8AD42A1581A5003DFA54 /* Persistence.swift in Sources */,
+				662F8AF82A158361003DFA54 /* CardView.swift in Sources */,
+				662F8AE52A1582B8003DFA54 /* AddTaskView.swift in Sources */,
+				664B52A12A1677F700F8DAD7 /* PlannerWidget.intentdefinition in Sources */,
+				66ACA3342A15861F000CFFD5 /* CustomDatePicker.swift in Sources */,
+				662F8AE12A158278003DFA54 /* AuthView.swift in Sources */,
+				662F8AF42A15833D003DFA54 /* TaskViewModel.swift in Sources */,
+				66ACA3362A1586DA000CFFD5 /* ProfileView.swift in Sources */,
+				662F8AF62A15834C003DFA54 /* SearchBar.swift in Sources */,
+				662F8AE32A1582A0003DFA54 /* CalendarView.swift in Sources */,
+				66ACA3382A158799000CFFD5 /* UserNotificationsService.swift in Sources */,
+				661E649C2A2F2699007138EA /* ReportView.swift in Sources */,
+				662F8ACD2A1581A5003DFA54 /* ContentView.swift in Sources */,
+				662F8ACB2A1581A5003DFA54 /* Plan_with_CharityApp.swift in Sources */,
+				662F8AF22A158326003DFA54 /* CardInfo.swift in Sources */,
+				662F8AD72A1581A5003DFA54 /* Plan_with_Charity.xcdatamodeld in Sources */,
+				664ECE672A2B68360060A509 /* ImagePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B528F2A1677F500F8DAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B529B2A1677F500F8DAD7 /* PlannerWidget.swift in Sources */,
+				664B52A02A1677F700F8DAD7 /* PlannerWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664B52A32A1677F700F8DAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 664B52922A1677F500F8DAD7 /* PlannerWidgetExtension */;
+			targetProxy = 664B52A22A1677F700F8DAD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662CCBD52A30B3B70087E415 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662CCBD42A30B3B70087E415 /* en */,
+				66280E1F2A30F1C60051FF76 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662F8AD82A1581A5003DFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		662F8AD92A1581A5003DFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662F8ADB2A1581A5003DFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Plan with Charity/Plan with Charity.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEVELOPMENT_ASSET_PATHS = "\"Plan with Charity/Preview Content\"";
+				DEVELOPMENT_TEAM = FUD5CPHJR9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = su.brf.apps.PlanWithCharity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		662F8ADC2A1581A5003DFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Plan with Charity/Plan with Charity.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEVELOPMENT_ASSET_PATHS = "\"Plan with Charity/Preview Content\"";
+				DEVELOPMENT_TEAM = FUD5CPHJR9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = su.brf.apps.PlanWithCharity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		664B52A62A1677F700F8DAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PlannerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUD5CPHJR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlannerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlannerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = su.brf.apps.PlanWithCharity.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664B52A72A1677F700F8DAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PlannerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUD5CPHJR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlannerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlannerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = su.brf.apps.PlanWithCharity.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662F8AC22A1581A4003DFA54 /* Build configuration list for PBXProject "Plan with Charity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662F8AD82A1581A5003DFA54 /* Debug */,
+				662F8AD92A1581A5003DFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662F8ADA2A1581A5003DFA54 /* Build configuration list for PBXNativeTarget "Plan with Charity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662F8ADB2A1581A5003DFA54 /* Debug */,
+				662F8ADC2A1581A5003DFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664B52A82A1677F700F8DAD7 /* Build configuration list for PBXNativeTarget "PlannerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B52A62A1677F700F8DAD7 /* Debug */,
+				664B52A72A1677F700F8DAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		662F8AD52A1581A5003DFA54 /* Plan_with_Charity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				662F8AD62A1581A5003DFA54 /* Plan_with_Charity.xcdatamodel */,
+			);
+			currentVersion = 662F8AD62A1581A5003DFA54 /* Plan_with_Charity.xcdatamodel */;
+			path = Plan_with_Charity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 662F8ABF2A1581A4003DFA54 /* Project object */;
+}

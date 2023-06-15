@@ -1,0 +1,128 @@
+/* 
+  Localizable.strings
+  Plan with Charity
+
+  Created by Ilya Derezovskiy on 07.06.2023.
+ 
+ Виджет
+*/
+
+"Сегодня" = "Today";
+"Задачи" = "Tasks";
+"Дата" = "Date";
+"Актуальных задач нет" = "No actual tasks";
+"Введите ваше имя" = "Enter your name";
+"Начать" = "Start";
+"Добавить задачу" = "Add new task";
+"Сбросить сумму" = "Reset the amount";
+"Вы действительно совершили денежный перевод в размере указанной суммы?" = "Have you actually made a payment in the specified amount?";
+"Показать все" = "Show all";
+"Сегодня прекрасный день, чтобы выполнить все намеченные дела!" = "Today is a great day to complete all the planned tasks!";
+"Планируй, помогая!" = "Plan by helping!";
+"Присоединяйся! Давай помогать вместе!" = "Join me! Let's help together!";
+"Хэй! Я уже участвую в системной благотворительности - помогаю фондам регулярными денежными переводами! Совершать регулярную помощь проще, если её планировать." = "Hey! I already participate in a systematic charity - I help foundations with regular money transfers! It is easier to make regular assistance if you plan it.";
+"Вы действительно хотите сбросить накопленную сумму?" = "Do you really want to reset the accumulated amount?";
+"Да" = "Yes";
+"Нет" = "No";
+"Сумма перевода" = "Transfer amount";
+"Сумма" = "Sum";
+"₽" = "$";
+"Подтвердить перевод" = "Confirm the payment";
+"Помощь не бывает маленькой. Каждый поступок важен, а помощь — это всегда поступок" = "Help is never small. Every action is important, and help is always an act";
+"Поиск ..." = "Search...";
+"Сменить имя..." = "Change your name...";
+"Сохранить" = "Save";
+"Удалить все задачи" = "Delete all tasks";
+"Вы действительно хотите удалить все задачи?" = "Do you really want to delete all tasks?";
+"Переведено на благотворительность:   %@" = "Spent to charity:   %@";
+"Накопленная сумма:   %@" = "Accumulated sum:   %@";
+"Этот способ подходит тем, кто хочет только заглянуть за «кулисы» благотворительности, но пока не готов вникать и глубоко вовлекаться. Все мы ходим в кафе, покупаем подарки, одежду и какие-то бытовые предметы. Это можно делать в местах, часть прибыли из которых идет на благотворительность. Вы можете купить одежду, украшения, канцелярские принадлежности, посуду и другие товары для дома. Можно обновить гардероб за пожертвование: деньги, полученные с продажи, пойдут на благотворительность. Также существуют магазины с мерчем при разных НКО, мастерские, где работают люди с инвалидностью, магазины с изделиями, изготовленными пожилыми людьми" = "This method is suitable for those who only want to look behind the scenes of charity, but are not yet ready to delve into and get deeply involved. We all go to cafes, buy gifts, clothes and some household items. This can be done in places where part of the profit goes to charity. You can buy clothes, jewelry, stationery, tableware and other household goods. You can upgrade your wardrobe for a donation: the money received from the sale will go to charity. There are also shops with merchandise at various charity organizations, workshops where people with disabilities work, shops with products made by elderly people";
+"Путь в благотворительность" = "The path to charity";
+"Каждый может стать лучом света в тёмные времена" = "Everyone can become a ray of light in dark times";
+"Уровень 1: подарки и кафе" = "Level 1: Gifts and cafes";
+"Уровень 2: денежные пожертвования" = "Level 2: Cash donations";
+"Возможно, вы слышали фразу о том, что для благотворительности не нужны внушительные суммы, достаточно пожертвовать цену одной чашки кофе, 100—300 рублей, и это уже будет большой помощью. И это действительно так, маленькие пожертвования правда работают! Многие фонды собирают внушительные суммы благодаря сотням небольших переводов. Регулярность — более важный фактор, чем сумма. Благодаря ежемесячным пожертвованиям фонды могут планировать свой бюджет и работу" = "You may have heard the phrase that you don't need an impressive amount for charity, it's enough to donate the price of one cup of coffee, 100-300 dollars, and this will already be a great help. And it really is, small donations really work! Many funds collect impressive sums thanks to hundreds of small transfers. Regularity is a more important factor than the amount. Thanks to monthly donations, foundations can plan their budget and work";
+"Уровень 3: разовые закупки" = "Level 3: One-time purchases";
+"Если есть силы для большего, но пока нет готовности заниматься волонтёрством, можно разово закупать товары для нуждающихся. Чаще всего требуются продукты, простая бытовая техника, постельное белье, лекарства. Такие закупки актуальны для большинства объединений, которые заботятся о незащищенных слоях населения. Лучше всего уточнять, какая именно гуманитарная помощь требуется. Если такой информации нет на сайте, можно уточнить в соцсетях, по почте или телефону" = "If you have the strength for more, but you are not ready to volunteer yet, you can buy goods for those in need on a one-time basis. Most often, products, simple household appliances, bed linen, medicines are required. Such purchases are relevant for most associations that take care of vulnerable segments of the population. It is best to specify what kind of humanitarian assistance is required. If such information is not available on the site, you can check in social networks, by mail or by phone";
+"Уровень 4: периодическое волонтерство" = "Level 4: Periodic volunteering";
+"Вариант такого волонтерства — навыками или руками — найдется для каждого. Многим организациям нужны волонтеры с машиной — например, свозить кошек из приюта к ветеринару и обратно. В большинстве приютов нужны волонтеры для прогулок с собаками — в некоторых из них подопечные сидят в вольерах месяцами и гуляют только по территории. Волонтерство есть во многих фондах — обычно ему посвящен раздел на сайте, где расписано, какая помощь нужна: разносить продуктовые наборы, помогать с сортировкой вещей на складе или помогать подопечным организации в мастерской и многое другое" = "There is a variant of such volunteering — skills or hands — for everyone. Many organizations need volunteers with a car — for example, to take cats from the shelter to the veterinarian and back. In most shelters, volunteers are needed for walking with dogs — in some of them, the wards sit in aviaries for months and walk only on the territory. There is volunteering in many foundations — usually a section on the website is dedicated to it, where it is written what kind of help is needed: to deliver food packages, help with sorting things in the warehouse or help the organization's wards in the workshop, and much more";
+"Уровень 5: постоянное волонтерство" = "Level 5: Permanent volunteering";
+"Это самый ответственный и требующий наибольшей вовлеченности и ресурса тип благотворительности. Конечно, это не работа, поэтому в ней не обязательно участвовать регулярно. Но сотрудники фондов рассчитывают на добровольца, а подопечные — если предусмотрен прямой контакт с ними — привязываются к нему. Поэтому лучше записываться, если есть возможность регулярно выделять время. При этом нормально в какой-то момент понять, что это некомфортно, и уйти, предупредив других. Волонтерство бывает разным: например, вести социальные сети фонда и координировать тех, кто хочет приехать в гости - тоже волонтёрство" = "This is the most responsible type of charity that requires the greatest involvement and resource. Of course, this is not a job, so it is not necessary to participate in it regularly. But the employees of the foundations rely on a volunteer, and the wards — if direct contact with them is provided — are attached to him. Therefore, it is better to sign up if there is an opportunity to allocate time regularly. At the same time, it is normal at some point to understand that it is uncomfortable, and leave, warning others. Volunteering can be different: for example, running the foundation's social networks and coordinating those who want to come to visit is also volunteering";
+"Вы действительно хотите удалить задачу?" = "Do you really want to delete the task?";
+"Создание задачи" = "Creating a task";
+"Редактирование задачи" = "Editing a task";
+"Название" = "Name";
+"Название задачи" = "Task name";
+"Дата" = "Date";
+"Описание" = "Description";
+"Описание задачи" = "Task description";
+"Стоимость" = "Cost";
+"Стоимость задачи" = "Task cost";
+"Категория" = "Category";
+"Выполнено" = "Completed";
+"Не выполнено" = "Not completed";
+
+"Январь" = "January";
+"Февраль" = "February";
+"Март" = "March";
+"Апрель" = "April";
+"Май" = "May";
+"Июнь" = "June";
+"Июль" = "July";
+"Август" = "August";
+"Сентябрь" = "September";
+"Октябрь" = "October";
+"Ноябрь" = "November";
+"Декабрь" = "December";
+
+"Пн" = "Mon";
+"Вт" = "Tues";
+"Ср" = "Wed";
+"Чт" = "Thurs";
+"Пт" = "Fri";
+"Сб" = "Sat";
+"Вс" = "Sun";
+
+"Планировщик задач с функцией перевода денежных средств в благотворительные организации" = "Task manager with the function of transferring funds to charity organizations";
+
+"Помощь людям с тяжелыми или неизлечимыми заболеваниями" = "Helping people with severe or incurable diseases";
+
+"Тем, кого вылечить нельзя, все равно можно помочь. Хосписам в России помогает фонд «Вера», однако таких учреждений в стране катастрофически мало. Например, за Уралом нет ни одного паллиативного центра для детей" = "Those who cannot be cured can still be helped. The Vera Foundation helps hospices in Russia, but there are catastrophically few such institutions in the country. For example, there is not a single palliative center for children outside the Urals";
+
+"Что такое паллиативная помощь?" = "What is palliative care?";
+
+"Паллиативная помощь направлена на улучшение качества жизни человека с тяжелым и опасным для здоровья заболеванием. Чтобы каждый неизлечимо больной человек мог получить качественную помощь вне зависимости от места жительства, возраста и материального положения" = "Palliative care is aimed at improving the quality of life of a person with a serious and health-threatening disease. So that every terminally ill person can receive high-quality care, regardless of place of residence, age and financial situation";
+
+"Как понять, какому фонду можно безбоязненно отдать деньги?" = "How to understand which fund you can safely give money to?";
+
+"Не переводите деньги частным лицам, жертвуйте только через благотворительные фонды" = "Do not transfer money to individuals, donate only through charitable foundations";
+
+"Ищите на сайте организации открытую информацию о том, кто собирает средства и с какой целью" = "Look for open information on the organization's website about who is raising funds and for what purpose";
+
+"Проверяйте качество ввода персональных и платежных данных. Они должны быть зашифрованы" = "Check the quality of entering personal and payment data. They must be encrypted";
+
+"Следите за реквизитами перевода. Они не должны вести на карты физических лиц" = "Keep track of the transfer details. They should not lead to the cards of individuals";
+
+"Помощь пожилым людям" = "Helping the elderly";
+
+"Пожилые люди нуждаются в том же, в чем и все остальные. Чтобы помочь, можно присоединиться к волонтерской группе, у которой есть опыт и знание специфики работы с пожилыми людьми. Например, можно помочь с ремонтом в квартирах нуждающихся, медицинским уходом, организацией занятия и развлечения для одиноких пожилых людей" = "Older people need the same things as everyone else. To help, you can join a volunteer group that has experience and knowledge of the specifics of working with the elderly. For example, you can help with repairs in the apartments of those in need, medical care, organization of classes and entertainment for lonely elderly people";
+
+"Помощь пострадавшим" = "Helping the victims";
+
+"Первое правило — сдавать кровь, ее всегда не хватает. Если вы хотите пожертвовать вещи — проследите, чтобы они были чистые и целые. Если хотите стать волонтером, обратитесь к фондам, которые организуют волонтерскую работу, самодеятельностью заниматься не стоит" = "The first rule is to donate blood, there is always not enough of it. If you want to donate things, make sure that they are clean and whole. If you want to become a volunteer, contact the foundations that organize volunteer work, you should not engage in amateur activities";
+
+"Помощь людям с ограниченными возможностями" = "Helping the people with disabilities";
+
+"Общайтесь с людьми с инвалидностью так же, как вы общаетесь со всеми остальными. Если ваш собеседник незрячий, не забывайте предупреждать, когда отходите, если слабослышащий — убедитесь, что ему хорошо видно ваше лицо. Если вы хотите помочь человеку, сначала узнайте, действительно ли ему нужна помощь" = "Communicate with people with disabilities the same way you communicate with everyone else. If your interlocutor is blind, do not forget to warn when you leave, if he is hard of hearing — make sure that he can clearly see your face. If you want to help a person, first find out if they really need help";
+
+"Помощь бездомным" = "Helping the homeless";
+
+"С октября по апрель самое страшное время для бездомных. Запишите телефоны служб помощи, они подскажут, куда направить бездомного. Помните: нечеткая дикция и нарушенная координация могут быть следствием не опьянения, а переохлаждения. Таким бездомным нужно вызвать «Скорую помощь» (телефоны 03 или 112)" = "From October to April is the worst time for the homeless. Write down the phone numbers of the help services, they will tell you where to send a homeless person. Remember: unclear diction and impaired coordination may be the result not of intoxication, but of hypothermia. Such homeless people need to call an ambulance (phones 03 or 112)";
+
+"Помощь детям-сиротам" = "Helping the orphaned children";
+
+"В действительности дети-сироты нуждаются в двух вещах: в подготовке к самостоятельной жизни и эмоциях, которые они не получили из-за отсутствия близких. Найдите несколько часов в неделю и станьте для ребенка значимым взрослым, который покажет, как устроен мир, и научит общению" = "In reality, orphaned children need two things: preparation for independent life and emotions that they did not receive due to the absence of loved ones. Find a few hours a week and become a significant adult for the child, who will show how the world works and teach communication";
+
+"Помощь тем, кому никто не помогает" = "Helping those who no one helps";
+
+"Есть множество людей, которые оказались в трудной ситуации, но их заявки не проходят ни в один из существующих фондов, а сил справиться с обстоятельствами у них нет. Это может быть ваш сосед или даже близкий родственник — зачастую, чтобы найти человека, который готов принять вашу помощь, достаточно оглянуться вокруг" = "There are many people who find themselves in a difficult situation, but their applications do not pass into any of the existing funds, and they do not have the strength to cope with the circumstances. It can be your neighbor or even a close relative — often, to find a person who is ready to accept your help, it is enough to look around";
